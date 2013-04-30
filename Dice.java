@@ -4,9 +4,9 @@ public class Dice {
   public static int RollDice(int DiceNumber,int Max)
   {
       int dice;
-        dice = 1 + (int)(Math.random()*Max*DiceNumber);
-          RollCount ++;
-            return dice;	
+      dice = 1 + (int)(Math.random()*Max*DiceNumber);
+      RollCount ++;
+      return dice;	
   }
   public int getCount()
   {
@@ -15,11 +15,9 @@ public class Dice {
   public static int Roll_1_Dice()
   {
       int computerNum;
-        computerNum = 1 + (int)(Math.random()*6);
-          return computerNum;
+      computerNum = 1 + (int)(Math.random()*6);
+      return computerNum;
   }
 }
 
-  }
-  }
-  }
+
