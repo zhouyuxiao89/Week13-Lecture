@@ -16,6 +16,7 @@ public class Dice {
   {
       int computerNum;
       computerNum = 1 + (int)(Math.random()*6);
+      RollCount ++;
       return computerNum;
   }
 }
